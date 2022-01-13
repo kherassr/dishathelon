@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('getcode') {
       steps {
-        bat 'git clone https://github.com/kherassr/disahthelon'
+        bat(script: 'git clone http://github.com/kherassr/disahthelon', returnStdout: true)
       }
     }
 
