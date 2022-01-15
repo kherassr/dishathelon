@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('getcode') {
       steps {
-        sh 'git clone http://github.som/kherassr/disahthelon'
+        sh 'git clone http://github.com/kherassr/disahthelon'
       }
     }
 
